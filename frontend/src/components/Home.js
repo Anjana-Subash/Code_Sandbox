@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import axios from 'axios';
 import './Home.css';
 
@@ -24,15 +23,9 @@ const Home = ({ isAuthenticated, userId }) => {
   return (
     <div className="home-container">
       <h2>Home</h2>
-      <p className="home-message">
-        {isAuthenticated ? 'You are logged in!' : 'Please login or signup to continue.'}
-      </p>
-      {!isAuthenticated && (
-        <p>
-          <Link to="/login">Login</Link> or <Link to="/signup">Signup</Link>
-        </p>
-      )}
-      <h3>Saved Sandboxes</h3>
+      
+      
+      <h3>All Sandboxes</h3>
       <ul>
         {savedSandboxes.map(sandbox => (
           <li key={sandbox._id}>
