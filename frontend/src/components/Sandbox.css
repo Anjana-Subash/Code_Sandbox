@@ -1,38 +1,38 @@
 .sandbox-container {
   display: flex;
   flex-direction: column;
-  height: 100%; /* Adjust the height as needed */
+  height: 100%; 
 }
 
 .sandbox-editor {
-  flex: 1; /* Take up remaining vertical space */
+  flex: 1; 
 }
 
 .sandbox-output {
-  flex: 1; /* Take up remaining vertical space */
+  flex: 1; 
   padding: 20px;
   box-sizing: border-box;
 }
 
 .sandbox-output button {
-  background-color: #007bff; /* Blue color for the button background */
-  color: #fff; /* White color for the button text */
-  border: none; /* Remove button border */
-  padding: 10px 20px;
-  margin-bottom: 20px; /* Add padding to the button */
-  border-radius: 5px; /* Add border radius for rounded corners */
-  cursor: pointer; /* Change cursor to pointer on hover */
-  transition: background-color 0.3s ease; /* Smooth transition for background color change */
+  background-color: #007bff; 
+  color: #fff; 
+  border: none; 
+  padding: 20px 20px;
+  margin-bottom: 20px; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
 }
 
 .sandbox-output button:hover {
-  background-color: #0056b3; /* Darker blue color on button hover */
+  background-color: #157a5a; 
 }
 
 
 .output-frame {
   width: 100%;
-  height: 200px; /* Set height as needed */
+  height: 100px; 
   border: 1px solid #ccc;
   margin-bottom: 10px;
 }
