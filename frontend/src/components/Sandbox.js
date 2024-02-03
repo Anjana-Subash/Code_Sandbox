@@ -63,7 +63,7 @@ const Sandbox = ({ userId }) => {
       </div>
       <div className="sandbox-output">
         <h2>Output</h2>
-        <button onClick={handleAcknowledgeEnd}>Save Sandbox</button>
+        <button onClick={handleAcknowledgeEnd}>Run and Save</button>
         <iframe
           id="sandbox-output"
           title="sandbox-output"
@@ -76,3 +76,4 @@ const Sandbox = ({ userId }) => {
 };
 
 export default Sandbox;
+
