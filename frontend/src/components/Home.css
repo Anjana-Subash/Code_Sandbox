@@ -1,0 +1,48 @@
+.home-container {
+  padding: 20px;
+  
+}
+
+.home-message {
+  font-size: 30px;
+}
+
+
+.code-snippet {
+  background-color: #9e9e9e;
+  border: 1px solid #cbb1d3;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.code-snippet .code-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.code-snippet pre {
+  margin: 0;
+  white-space: pre-wrap;
+}
+
+.code-snippet .code {
+  font-family: 'Courier New', Courier, monospace;
+  color: #333;
+}
+
+.output-snippet {
+  background-color: #9e9e9e;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.output-snippet .output-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.output-snippet pre {
+  margin: 0;
+  white-space: pre-wrap;
+}
